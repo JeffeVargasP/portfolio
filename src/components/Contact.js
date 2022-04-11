@@ -47,7 +47,6 @@ export default function Contact() {
                     ADDRESS
                   </h2>
                   <p className="mt-1">
-                    Rua Osvlado Zaparolli Nº6 <br />
                     Pompéia - SP
                   </p>
                 </div>
