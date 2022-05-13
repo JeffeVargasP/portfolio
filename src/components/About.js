@@ -7,22 +7,23 @@ export default function About () {
           <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center text-white">
               <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium">
-                Hi I'm Jeff!
-                <br className="hidden lg:inline-block" />I love to build some tech stuff
+                Olá, meu nome é Jefferson, mas pode me chamar de Jeff!
+                <br className="hidden lg:inline-block" />
+                Gosto de criar, experimentar e automatizar coisas novas.
               </h1>
               <p className="mb-8 leading-relaxed">
-              Since I've been started to programming with Python, I've found a new hobby for my life and get growing my knowledge about this area, I'm a technique in electro electronic course offer by SENAI and I'm in a course of Big Data at FATEC
+              Desde quando eu comecei a programar em Python, encontrei algo no qual pude abrir um leque incrível de criações, inovações, conexões, automações e por este motivo venho desenvolvendo meus conhecimentos nesta área e outras que podem ser usadas com a mesma. Tenho formação em “Eletroeletrônica” e “Desenvolvimento Web Full Stack” que são dois cursos oferecidos pelo SENAI Shunji Nishimura. Atualmente estou cursando Big Data na FATEC.
               </p>
               <div className="flex justify-center">
                 <a
                   href="#contact"
                   className="inline-flex text-gray-100 bg-green-600 border-0 py-2 px-6 focus:outline-none opacity-80 hover:opacity-100 rounded text-lg hover:">
-                  Work With Me
+                    Me contrate!
                 </a>
                 <a
                   href="#projects"
                   className="ml-4 inline-flex text-gray-100 bg-gray-800 border-0 py-2 px-6 focus:outline-none opacity-80 hover:opacity-100 rounded text-lg">
-                  See My Past Work
+                  Veja meus projetos
                 </a>
               </div>
             </div>

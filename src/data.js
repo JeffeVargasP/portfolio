@@ -1,34 +1,34 @@
 export const projects = [
     {
       title: "My-TCC",
-      subtitle: "Automatic and RC Car",
+      subtitle: "Carro autônomo e controlado",
       description:
-        "Electronic automatic and remote controlled car build with Arduino UNO, C++ compiled to work with Arduino, Relay, Transistor, Resistor, etc",
+        "Carro eletrônico automático e controlado remotamente com Arduino UNO, C++ compilado para trabalhar com Arduino, Relé, Transistor, Resistor, etc.",
       link: "https://github.com/JeffeVargasP/My-TCC/",
     },
     {
       title: "First-Project",
-      subtitle: "First project in Python",
+      subtitle: "Primeiro projeto em Python",
       description:
-        "That it's my first project made with Python that contains a 'Central of Functions' include a calculator, games, converter and more",
+        "Que é meu primeiro projeto feito com Python que contém uma 'Central de Funções' inclui uma calculadora, jogos, conversor e muito mais.",
       link: "https://github.com/JeffeVargasP/First-Project/",
     },
     {
       title: "VolumeBDAG",
-      subtitle: "Volume 5Vs of Big Data",
+      subtitle: "Os 5Vs do Big Data focado no 'Volume'",
       description:
-        "This is a WebPage made with Bootstrap framework without this, pure HTML and CSS. In summary, it was built for explaining one of the five 'V's of Big Data, the Volume",
+        "Esta é uma WebPage feita com framework Bootstrap sem isso, puro HTML e CSS. Em resumo, foi construído para explicar um dos cinco 'V's do Big Data, o Volume.",
       link: "jeffevargasp.github.io/volumeDBAG/",
     },
     {
       title: "MLBSearch",
-      subtitle: "Mercado Livre's crawler",
+      subtitle: "WebCrawler feito para o Mercado Livre",
       description:
-        "It's a WebScrapy to search for name, price and description of any product that you want and obviously that have in the Mercado Livre site",
+        "É um WebScrapy para pesquisar nome, preço e descrição de qualquer produto que você queira e obviamente que tenha no site do Mercado Livre.",
       link: "https://github.com/JeffeVargasP/mlbsearch/",
     },
   ];
 
 export const skills = [
-      'Python', 'React', 'Microcontroller', 'Electronic', 'Linux', 'Node', 'Docker', 'Database'
+      'Python', 'Microcontrolador', 'Eletrônica', 'Automação', 'Linux', 'NodeJS', 'Express','ReactJS','Docker', 'Banco de Dados'
 ]
