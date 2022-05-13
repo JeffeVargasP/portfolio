@@ -2,30 +2,6 @@ import React from 'react';
 
 export default function Contact() {
 
-    const [name, setName] = React.useState("");
-    const [email, setEmail] = React.useState("");
-    const [message, setMessage] = React.useState("");
-  
-    function encode(data) {
-      return Object.keys(data)
-        .map(
-          (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
-        )
-        .join("&");
-    }
-  
-    function handleSubmit(e) {
-      e.preventDefault();
-      fetch("/", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: encode({ "form-name": "contact", name, email, message }),
-      })
-        .then(() => alert("Message sent!"))
-        .catch((error) => alert(error));
-    }
-  
-
     return (
         <section id="contact" className="relative bg-gray-900 text-white">
           <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
@@ -41,10 +17,10 @@ export default function Contact() {
                 style={{ filter: "opacity(0.7)" }}
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462.1200338678441!2d-50.19056739529487!3d-22.08933417309936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94959cb69f9682d5%3A0xfe1308f1e63c139f!2sR.%20Osvaldo%20Zaparoli%20-%20Pomp%C3%A9ia%2C%20SP%2C%2017580-000!5e0!3m2!1spt-BR!2sbr!4v1649656206592!5m2!1spt-BR!2sbr"
               />
-              <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
+              <div className="bg-gray-900 relative flex flex-wrap py-6 px-6 rounded shadow-md">
                 <div className="lg:w-1/2 px-6">
                   <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                    ADDRESS
+                    ENDEREÇO
                   </h2>
                   <p className="mt-1">
                     Pompéia - SP
@@ -55,10 +31,12 @@ export default function Contact() {
                     EMAIL
                   </h2>
                   <a className="text-indigo-400 leading-relaxed">
-                    jeffersonvargas745@gmail.com
+                    <p>
+                      jeffevargas@proton.me
+                    </p>
                   </a>
                   <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
-                    PHONE
+                    NÚMERO
                   </h2>
                   <p className="leading-relaxed">+55 (14) 99619-9677</p>
                 </div>
@@ -69,14 +47,14 @@ export default function Contact() {
               name="contact"
               className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
               <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
-                Hire Me
+                Me contrate
               </h2>
               <p className="leading-relaxed mb-5">
-                Would you want to talk with me about work? Contact-me!
+                Gostaria de trocar uma ideia? Então me contate!
               </p>
               <div className="relative mb-4">
                 <label htmlFor="name" className="leading-7 text-sm text-gray-400">
-                  Name
+                  Nome
                 </label>
                 <input
                   autoComplete='off'
@@ -102,7 +80,7 @@ export default function Contact() {
                 <label
                   htmlFor="message"
                   className="leading-7 text-sm text-gray-400">
-                  Message
+                  Mensagem
                 </label>
                 <textarea
                   autoComplete='off'
@@ -114,7 +92,7 @@ export default function Contact() {
               <button
                 type="submit"
                 className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-                Submit
+                Enviar
               </button>
             </form>
           </div>
