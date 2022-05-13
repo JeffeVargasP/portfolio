@@ -31,9 +31,13 @@ export default function Contact() {
                     EMAIL
                   </h2>
                   <a className="text-indigo-400 leading-relaxed">
+<<<<<<< HEAD
                     <p>
                       jeffevargas@proton.me
                     </p>
+=======
+                    jeffevargas@proton.me
+>>>>>>> 3aeeda642581600a0208a8c04f7f2e69df2a8ddb
                   </a>
                   <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                     NÚMERO
